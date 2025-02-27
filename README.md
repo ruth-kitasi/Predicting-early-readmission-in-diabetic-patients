@@ -102,7 +102,7 @@ Use digital tools (mobile apps, SMS reminders) to help patients track their gluc
 3. Introduce incentives for hospitals and clinics that successfully reduce readmission rates through proactive care.
 Provide coverage for preventive care services, such as remote patient monitoring, home visits, and education programs, to minimize readmission risks.Adjust reimbursement models to reward quality patient outcomes rather than volume-based care.
 
-4.Use the predictive model to identify high-risk diabetic patients who are likely to be readmitted within 30 days.
+4. Use the predictive model to identify high-risk diabetic patients who are likely to be readmitted within 30 days.
 Implement personalized follow-up care plans, including post-discharge check-ups, medication adherence programs, and dietary counseling.
 Improve care coordination between hospitals, primary care providers, and outpatient services to reduce preventable readmissions.
 
