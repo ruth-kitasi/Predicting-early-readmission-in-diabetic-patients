@@ -70,7 +70,7 @@ Use the predictive model to help hospitals identify high-risk patients and alloc
     - Lack of Causality: Although predictive models can identify correlations, they cannot establish causality. Therefore, the identified risk factors for readmissions may not necessarily be causal but simply associated.
     - Clinically Meaningful Results: While predictive models may identify risk factors, translating these into actionable clinical interventions may require further expertise and validation from healthcare professionals.
       
- ## Conclusions
+ ## Findings
  
   1. Predictive Model for Early Readmissions
 The XGBoost model achieved an accuracy of 59.3% without class weights and 51.2% with class weights, indicating that class balancing impacted overall predictive performance. However, the model struggles with accurately identifying patients readmitted within 30 days (class 0), as shown by the low recall (0.03 without weights, 0.39 with weights). This suggests that predicting early readmissions remains a challenge, possibly due to data imbalance or overlapping risk factors
