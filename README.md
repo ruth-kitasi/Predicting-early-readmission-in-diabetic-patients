@@ -70,6 +70,8 @@ Use the predictive model to help hospitals identify high-risk patients and alloc
     - Lack of Causality: Although predictive models can identify correlations, they cannot establish causality. Therefore, the identified risk factors for readmissions may not necessarily be causal but simply associated.
     - Clinically Meaningful Results: While predictive models may identify risk factors, translating these into actionable clinical interventions may require further expertise and validation from healthcare professionals.
   
+   ## Distribution of the target variable
+  
    ![Image](https://github.com/user-attachments/assets/4396c501-cf3e-42fd-bf6e-b2f80034eb52)
 
   ## Findings
