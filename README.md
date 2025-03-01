@@ -69,8 +69,22 @@ Use the predictive model to help hospitals identify high-risk patients and alloc
 
     - Lack of Causality: Although predictive models can identify correlations, they cannot establish causality. Therefore, the identified risk factors for readmissions may not necessarily be causal but simply associated.
     - Clinically Meaningful Results: While predictive models may identify risk factors, translating these into actionable clinical interventions may require further expertise and validation from healthcare professionals.
+
+  ## Findings.
+1. The dataset is highly imbalanced, with the majority of patients (54,864) not being readmitted. This imbalance can affect the performance of predictive models, as they may become biased toward the majority class (no readmission).
+
+2. The number of patients readmitted within 30 days (11,357) is relatively small compared to the total number of patients, it is still significant. Early readmissions are a critical concern in healthcare, as they often indicate gaps in patient management and can lead to increased healthcare costs.
+
+3. Most patients stay for a short duration (1-4 days) with a small percentage of patients stay beyond 10 days, suggesting that prolonged hospitalizations are uncommon.
+
+4. The largest number of patients falls within the [60-80] age range, with the [70-80] group being the highest. This suggests that older individuals (particularly those above 60) make up the majority of hospital visits.
+
+5. Insulin dependency is high among patients in this dataset. Metformin and sulfonylureas (like glipizide and glyburide) are also commonly prescribed, suggesting they are key in managing diabetes. Other medications (like miglitol and tolbutamide) are rarely used, possibly due to being outdated, having specific use cases, or having side effects that limit their prescription.
+
+6. A Significant Proportion Had Medication Changes (46.2%) compared to 53.8% whose medication was not changed.
+This could indicate that nearly half of the patients required medication adjustments, possibly due to: Uncontrolled symptoms or complications. Changes in patient response to medication. Doctors optimizing treatment based on lab results or diagnosis updates.
       
- ## Findings
+ ## Conclusions
  
   1. Predictive Model for Early Readmissions
 The XGBoost model achieved an accuracy of 59.3% without class weights and 51.2% with class weights, indicating that class balancing impacted overall predictive performance. However, the model struggles with accurately identifying patients readmitted within 30 days (class 0), as shown by the low recall (0.03 without weights, 0.39 with weights). This suggests that predicting early readmissions remains a challenge, possibly due to data imbalance or overlapping risk factors
