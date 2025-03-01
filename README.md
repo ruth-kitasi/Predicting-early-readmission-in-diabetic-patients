@@ -105,7 +105,7 @@ The high recall for non-readmitted patients (class 2) allows hospitals to confid
 Since the model struggles with predicting early readmissions, improving data quality (e.g., including more granular clinical indicators) could enhance risk prediction and resource planning
 
  ## Recommendations
- 1. Ensure continuous data updates to keep predictive models relevant as healthcare trends evolve.
+ 1. Continuous data updates to keep predictive models relevant as healthcare trends evolve.
 Encourage the use of explainable AI (XAI) to enhance trust in predictive analytics and support decision-making in clinical settings.
 Investigate additional risk factors beyond the dataset, such as social determinants of health (income level, education, and support systems), which may impact readmission rates.
 
