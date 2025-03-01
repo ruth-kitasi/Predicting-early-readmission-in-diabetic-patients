@@ -1,4 +1,5 @@
 # Predicting-early-readmission-in-diabetic-patience
+![Image](https://github.com/user-attachments/assets/f048f61f-86f3-4a87-b8db-4cc6ba68ee95)
 ## Introduction
 Diabetes, is a metabolic disorder characterized by chronic hyperglycemia (elevated blood glucose levels) resulting from defects in insulin secretion, insulin action, or both.It is one of the most prevalent chronic diseases worldwide, affecting millions of individuals and placing a significant burden on healthcare systems. In the United States alone, diabetes management accounts for a substantial portion of healthcare expenditures, driven by complications, hospitalizations, and frequent readmissions. Despite advancements in medical care and evidence-based interventions, many diabetic patients continue to experience suboptimal outcomes due to inconsistent management and inadequate follow-up care.
 
